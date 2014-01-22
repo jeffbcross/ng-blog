@@ -34,6 +34,7 @@ Todo
 
 **V1**
 
+1. Make slug auto-populate as you type title
 1. Add in db validation - only authenticated users should be able to create, edit, delete
 1. Add in pw recovery via dpd-email - waiting to hear back on accessing Dashboard
 1. Add user create, edit, delete pages - only for admins
