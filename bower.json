@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "0.0.0",
+  "authors": [
+    "Chris Shumate <crshumate@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "1.2.9",
+    "bootstrap": "~3.0.3",
+    
+    "angular-ui-router": "0.2.8-bowratic-tedium",
+    
+    "angular-ui": "~0.4.0"
+  }
+}

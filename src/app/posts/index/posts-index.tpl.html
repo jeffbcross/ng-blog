@@ -1,0 +1,22 @@
+<div class="row">
+	
+	<div class="col-md-8 col-md-offset-2">
+		
+		<ul class="list-unstyled">
+			<li class="well"ng-repeat="post in posts">
+				<h1><a href="/#/post/{{post.slug}}">{{post.title}}</a></h1>
+
+				<div class="teaser">{{post.body}}</div>
+				<ul class="list-inline list-unstyled">
+					<li ng-if="isLoggedIn"><a class="btn btn-info" href="/#/edit-post/{{post.slug}}">Edit Post</a></li>
+					<li ng-if="isLoggedIn"><a class="btn btn-danger" href="/#/delete-post/{{post.id}}">Delete Post</a></li>
+				</ul>
+			</li>
+			
+			
+
+
+		</ul>
+
+	</div>
+</div>

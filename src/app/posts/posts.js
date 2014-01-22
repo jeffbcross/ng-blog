@@ -1,0 +1,1 @@
+angular.module('app.posts', ['app.posts-index', 'app.posts-create', 'app.posts-edit', 'app.posts-delete', 'app.posts-view']);
