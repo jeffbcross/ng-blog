@@ -11,7 +11,7 @@ Steps to Install ng-blog and get it working
 1. Install nodejs - [http://nodejs.org](http://nodejs.org)
 1. From command line install grunt-cli: npm install -g grunt-cli
 1. From command line install deployd: npm install -g deployd
-1. From command line run inside of root projecto directory: npm install
+1. From command line run inside of the project's root directory: npm install
 1. From command line run: bower install
 1. From command line run: grunt build
 1. While inisde the ng-blog directory, run deployd from the command line: 
