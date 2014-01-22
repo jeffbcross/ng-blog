@@ -11,7 +11,7 @@ Steps to Install ng-blog and get it working
 1. Install nodejs - [http://nodejs.org](http://nodejs.org)
 1. From command line install grunt-cli: npm install -g grunt-cli
 1. From command line install deployd: npm install -g deployd
-1. From command line run: npm install
+1. From command line run inside of root projecto directory: npm install
 1. From command line run: bower install
 1. From command line run: grunt build
 1. While inisde the ng-blog directory, run deployd from the command line: 
@@ -36,7 +36,8 @@ Todo
 **V1**
 
 1. Make slug auto-populate as you type title
-1. Add in db validation - only authenticated users should be able to create, edit, delete
+1. Add in db validtion for restricted actions - only authenticated users should be able to create, edit, delete
+1. Add db data validation
 1. Add in pw recovery via dpd-email - waiting to hear back on accessing Dashboard
 1. Add user create, edit, delete pages - only for admins
 1. Create user roles - admin, manager, user
