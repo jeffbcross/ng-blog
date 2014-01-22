@@ -20,8 +20,8 @@ Steps to Install ng-blog and get it working
 1. In browser visit http://localhost:2403/dashboard and add data to Users and Posts collections
 	- It is point and click here.  
 		- Under "Resources" select a collection by clicking on it, either Users or Posts, 
-			- **Post slugs should be lowercased, alphanumeric with dashes for spaces**
 		- Click on Data and add data to each collection
+			- **Post slugs should be lowercased, alphanumeric with dashes for spaces**
 1. Once you've completed these steps, in browser visit: http://localhost:2403
 1. You should see your posts
 1. Click on "Login" - enter your username and password you entered in the Users collection
